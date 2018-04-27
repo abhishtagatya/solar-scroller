@@ -1,6 +1,12 @@
+* {
+  opacity: 10%;
+  transition: all 0.3s ease-in;
+}
+
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   /* Credits to Wallpapertag.com */
   background-image: url('space-background.jpeg');
   background-attachment: fixed;
@@ -15,6 +21,7 @@ html, body {
 }
 
 .tit-pl {
+  text-align: center;
   margin-top: 50px;
   margin-bottom: 1px;
 }
@@ -90,7 +97,7 @@ a .planet, .star {
   width: 20px;
   height: 20px;
   position: relative;
-  margin: 20px 10px;
+  margin: 50px 10px;
   -webkit-transition: all 200ms ease-in;
   -webkit-transform: scale(1);
   -ms-transition: all 200ms ease-in;
@@ -106,7 +113,6 @@ a .planet, .star {
 
 .star:hover {
   box-shadow: 0px 0px 150px #000000;
-  z-index: 99999;
   border-radius: 50%;
   -webkit-transition: all 200ms ease-in-out 200ms;
   -webkit-transform: scale(1.2);
@@ -165,14 +171,6 @@ a .planet, .star {
   width: 240px;
   height: 240px;
   margin-top: 66500px;
-  background-color: #e3e0c0;
-}
-
-#saturn-ring {
-  width: 240px;
-  height: 240px;
-  margin-top: 66500px;
-  border: 80px solid rgba(191, 189, 175, 0.9);
   background-color: #e3e0c0;
 }
 
